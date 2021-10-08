@@ -14,4 +14,4 @@ read data, then do some cleaning and human check, finally setup a KG database( j
 接下来输出统计的结果，包含了entity relation和triples的数量，以及当前知识库在三个数据集fvqa、vqa2.0、okvqa下的覆盖率，三个数据集的相关数据均在data文件夹下 <br>
 ```all_qs_dict_release_combine_all.json```  ----> ```json_afterclear.json``` <br>
 3. ```convertjson2jsondl()```函数 <br>
-
+将json格式的知识库，按预先构建的知识库的格式，存储为jsondl格式
